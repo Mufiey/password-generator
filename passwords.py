@@ -58,8 +58,7 @@ def copy_password():
         messagebox.showinfo("Copied", "Password copied to clipboard!")
     else:
         messagebox.showwarning("Warning", "No password to copy.")
-
-# Arayüz tasarımı
+        
 root = tk.Tk()
 root.title("Password Generator")
 
